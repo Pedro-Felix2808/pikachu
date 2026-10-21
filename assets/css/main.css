@@ -82,8 +82,34 @@ h1::before{
 @media (min-width: 768px){
     .hero-container p{
         display: block;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         text-align: center;
         color: var(--color-secondary);
+    }
+    .pikachu{
+        width: 67vw;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    body{
+        padding: 32px 70px;
+    }
+    h1{
+        font-size: 20vw;
+        transform: translateY(0%);
+    }
+    .hero-container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero-container div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
     }
 }
